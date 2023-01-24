@@ -7,6 +7,7 @@ class ApplicationController < ActionController::Base
   private
 
   def set_host
+    binding.pry
     @host = params[:host]
   end
 end
